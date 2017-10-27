@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="weekly-report" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="完整版" transform="translate(-79.000000, -2274.000000)">
+            <g id="点评" transform="translate(40.000000, 1984.000000)">
+                <g id="ic_star" transform="translate(40.000000, 291.000000)">
+                    <polygon id="Stroke-1" stroke-opacity="0.00784313771" stroke="#000000" stroke-width="0.5" points="0 0 47.999997 0 47.999997 47.999997 0 47.999997"></polygon>
+                    <path d="M23.979998,3.99999976 C12.9399997,3.99999976 3.99999976,12.9599992 3.99999976,23.9999986 C3.99999976,35.0399987 12.9399997,43.9999974 23.979998,43.9999974 C35.0399987,43.9999974 43.9999974,35.0399987 43.9999974,23.9999986 C43.9999974,12.9599983 35.0399987,3.99999976 23.979998,3.99999976 Z M32.4599971,35.9999978 L23.9999986,30.8999977 L15.539999,35.9999978 L17.7799996,26.3799994 L10.32,19.9200008 L20.1599986,19.0800007 L23.9999986,9.9999994 L27.8399983,19.0599983 L37.6799979,19.8999984 L30.2199994,26.359999 L32.4599971,35.9999978 Z" id="Fill-2" fill="#FF6600"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="30px" viewBox="0 0 32 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="帖子分享优化" transform="translate(-650.000000, -2231.000000)">
+            <g id="Group-3" transform="translate(642.000000, 2221.000000)">
+                <rect id="Rectangle-3" x="0" y="0" width="48" height="48"></rect>
+                <path d="M8,34 L36,34 C38.209139,34 40,32.209139 40,30 L40,14 C40,11.790861 38.209139,10 36,10 L12,10 C9.790861,10 8,11.790861 8,14 L8,34 Z M8,34 L14,34 L8,40 L8,34 Z M16,20 L18,20 C18.5522847,20 19,20.4477153 19,21 L19,23 C19,23.5522847 18.5522847,24 18,24 L16,24 C15.4477153,24 15,23.5522847 15,23 L15,21 C15,20.4477153 15.4477153,20 16,20 Z M23,20 L25,20 C25.5522847,20 26,20.4477153 26,21 L26,23 C26,23.5522847 25.5522847,24 25,24 L23,24 C22.4477153,24 22,23.5522847 22,23 L22,21 C22,20.4477153 22.4477153,20 23,20 Z M30,20 L32,20 C32.5522847,20 33,20.4477153 33,21 L33,23 C33,23.5522847 32.5522847,24 32,24 L30,24 C29.4477153,24 29,23.5522847 29,23 L29,21 C29,20.4477153 29.4477153,20 30,20 Z" id="Combined-Shape" fill="#787878"></path>
+            </g>
+        </g>
+    </g>
+</svg>

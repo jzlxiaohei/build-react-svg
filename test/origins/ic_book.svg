@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_book</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="weekly-report" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="完整版" transform="translate(-55.000000, -1197.000000)">
+            <g id="复习" transform="translate(40.000000, 1182.000000)">
+                <g id="ic_book" transform="translate(16.000000, 16.000000)">
+                    <polygon id="Stroke-1" stroke-opacity="0.00784313771" stroke="#000000" stroke-width="0.5" points="0 0 48 0 48 48 0 48"></polygon>
+                    <path d="M36,4 L12,4 C9.80000018,4 8,5.80000018 8,8 L8,40 C8,42.2000006 9.80000018,44 12,44 L36,44 C38.2000006,44 40,42.2000006 40,40 L40,8 C40,5.80000018 38.2000006,4 36,4 Z M12,8 L22,8 L22,24 L17,21 L12,24 L12,8 Z" id="Fill-2" fill="#FF6600"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

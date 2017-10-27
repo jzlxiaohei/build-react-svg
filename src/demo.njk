@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom';{% for comp in comps %}
+import {{comp.name}} from 'icons/{{comp.name}}';{% endfor %}
+import './index.scss';
+
+export default () => {
+  return (
+    <ul className="svg-comps-list">{% for comp in comps %}
+      <li><{{comp.name}} />
+        <div className="comp-name">{{comp.name}}</div>
+      </li>{% endfor %}
+    </ul>
+  );
+};
