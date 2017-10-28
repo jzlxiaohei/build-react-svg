@@ -9,8 +9,6 @@ const zipSvg = require('./zipSvg');
 
 const readFile = bluebird.promisify(fs.readFile);
 
-
-
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -55,7 +53,6 @@ function processSvgFiles(originsDir, options = {}) {
           { extraClass: className },
         );
 
-
         return zipSvg(originSvgString, zipOptions)
           .then((result) => {
             const data = result.data;
@@ -74,7 +71,6 @@ function processSvgFiles(originsDir, options = {}) {
 }
 
 function genReact(originsDir, compsDir, options = {}) {
-  fsExtra.removeSync(compsDir);
 
   const allWritePromise = processSvgFiles(originsDir, options).map((svgPromise) => {
     return svgPromise.then((result) => {
@@ -92,9 +88,5 @@ function genReact(originsDir, compsDir, options = {}) {
 
   return bluebird.all(allWritePromise);
 }
-
-const constants = require('./constants');
-
-genReact(constants.originsDir, constants.compsDir);
 
 module.exports = genReact;

@@ -4,7 +4,6 @@ const glob = require('glob');
 const fsExtra = require('fs-extra');
 const njk = require('nunjucks');
 
-
 function genDemo(compsDir, demoFilePath, options = {}) {
   const comps = glob.sync(path.join(compsDir, '*.jsx'))
     .map((filePath) => {
