@@ -1,0 +1,17 @@
+{
+  "presets": [
+    [
+      "env"
+    ],
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    ["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "icons": "./demo/comps"
+      }
+    }]
+  ]
+}

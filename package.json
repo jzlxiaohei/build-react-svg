@@ -1,11 +1,13 @@
 {
   "name": "build-react-svg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "",
   "license": "ISC",
@@ -16,12 +18,23 @@
     "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-0"
   },
   "devDependencies": {
+    "@storybook/addon-actions": "^3.2.13",
+    "@storybook/addon-links": "^3.2.13",
+    "@storybook/react": "^3.2.13",
     "babel": "^6.23.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.0.1",
-    "build-react-svg": "^0.0.1",
+    "babel-plugin-module-resolver": "^2.7.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
     "eslint": "^4.9.0",
-    "eslint-config-recommended": "^1.5.0"
+    "eslint-config-recommended": "^1.5.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
