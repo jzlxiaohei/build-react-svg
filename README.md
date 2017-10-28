@@ -17,7 +17,7 @@ genCode(originDir, compsDir, demoFilePath, { defaultClass: 'lls-cc-svg-icon' });
   - `svgo`, svgo 实例，用来进行svg内容的压缩，具体参考 `svgo` 项目
 
 # 压缩规则
-会对svg进行压缩，目前从sketch里export的简单icon，测试了有几十个，都可以work。要求原svg 主要的结构为
+会对svg进行压缩，目前从 `sketch` 里export的简单icon，测试了有几十个，都可以work。要求原svg 主要的结构为
 ```jsx
   <svg>
     <g>
@@ -29,6 +29,6 @@ genCode(originDir, compsDir, demoFilePath, { defaultClass: 'lls-cc-svg-icon' });
 即 `g` tag里只有一个 `path`
 
 压缩包括
-1. 去掉不不必要的element， 一般情况只应该是 `<svg><path /></svg>` 这样的结构
+1. 去掉不必要的element， 一般情况只应该是 `<svg><path /></svg>` 这样的结构
 2. `fill` 和 `stroke` 全部删掉，请使用css 进行颜色设置
 
