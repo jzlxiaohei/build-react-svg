@@ -10,3 +10,6 @@ genCode(originDir, compsDir, demoFilePath, { defaultClass: 'lls-cc-svg-icon' });
   - defaultClass, 每个react svg 组件会加 className, 命名规则是 defaultClass + ' ' + 和fileName 的className
   -  `compTplStr`, `demoTplStr`, `svgo` 这三个配置，有点高级，不太好说清楚, 后面再补
 
+# 压缩规则
+会对svg进行压缩，目前从sketch里export的简单icon，
+

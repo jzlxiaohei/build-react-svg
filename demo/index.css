@@ -1,0 +1,13 @@
+.svg-comps-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.svg-comps-list li {
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+.svg-comps-list .comp-name {
+  text-align: center;
+}
