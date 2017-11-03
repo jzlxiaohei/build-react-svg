@@ -80,6 +80,9 @@ function genReact(originsDir, compsDir, options = {}) {
       );
       const compName = capitalizeFirstLetter(fileName);
       const filePath = path.join(compsDir, compName + '.jsx');
+      if(fsExtra.existsSync(filePath) && !options.force) {
+        return Promise.resolve();
+      }
       const svg = buildReactString(data, compName, options.compTplStr);
 
       return fsExtra.outputFile(filePath, svg);

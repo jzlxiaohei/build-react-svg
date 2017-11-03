@@ -15,6 +15,7 @@ genCode(originDir, compsDir, demoFilePath, { defaultClass: 'lls-cc-svg-icon' });
   -  `compTplStr`, 生成 react component 的njk模板，默认为src/react.njk. 你可以根据需要进行微调。
   - `demoTplStr`, 生成 demo component 的njk模板。 用来展示所有生成的svg组件的，默认为src/demo.njk. 你可以根据需要进行微调。
   - `svgo`, svgo 实例，用来进行svg内容的压缩，具体参考 `svgo` 项目
+  - `force`, 如果react component 已经存在，默认不覆盖，force 设为true， 强制覆盖
 
 # 压缩规则
 会对svg进行压缩，目前从 `sketch` 里export的简单icon，测试了有几十个，都可以work。要求原svg 主要的结构为

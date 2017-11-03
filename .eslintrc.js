@@ -26,6 +26,6 @@ module.exports = {
     "no-return-assign": 0,
     "no-underscore-dangle": 0,
     "prefer-template": 0,
-    "react/display-name", 0
+    "react/display-name": 0,
   },
 };

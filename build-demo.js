@@ -6,5 +6,5 @@ const compsDir = path.join(__dirname, './demo/comps');
 
 const demoFilePath = path.join(__dirname, './demo/SvgDemo.jsx');
 
-genCode(originDir, compsDir, demoFilePath, { defaultClass: 'lls-cc-svg-icon' });
+genCode(originDir, compsDir, demoFilePath, { defaultClass: 'lls-cc-svg-icon', force: true });
 
