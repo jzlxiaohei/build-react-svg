@@ -63,7 +63,9 @@ const buildSvgo = (options) => {
       }, {
         removeNonInheritableGroupAttrs: true,
       }, {
-        removeUselessStrokeAndFill: true,
+        removeUselessStrokeAndFill: {
+          removeNone: true,
+        }
       }, {
         removeUnusedNS: true,
       }, {
