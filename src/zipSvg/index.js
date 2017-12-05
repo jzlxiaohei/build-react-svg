@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const SVGO = require('svgo');
 const overrideClassNamePlugin = require('./_overrideClassNamePlugin');
-const extraOnlyPathFromGroup = require('./_extraOnlyPathFromGroup');
+const removeSketchPolygon = require('./_removeSketchPolygon');
 
 const buildSvgo = (options) => {
   const defaultClass = options.defaultClass || 'lls-svg-icon';
@@ -15,7 +15,7 @@ const buildSvgo = (options) => {
           },
         }),
       }, {
-        extraOnlyPathFromGroup: _.assign({}, extraOnlyPathFromGroup),
+        removeSketchPolygon: _.assign({}, removeSketchPolygon),
       }, {
         removeStyleElement: true,
       }, {
@@ -88,13 +88,6 @@ const buildSvgo = (options) => {
         transformsWithOnePath: false,
       }, {
         removeDimensions: true,
-      }, {
-        removeAttrs: {
-          attrs: [
-            'stroke.*',
-            'fill.*',
-          ],
-        },
       },
     ],
   };
@@ -111,17 +104,12 @@ function removeSvgStyle(svg) {
 function zipSvg(data, options) {
   if (!options.extraClass) throw new Error('extraClass is required');
 
-  return new Promise((resolve) => {
-    const svgo = options.svgo || buildSvgo(options);
-    const textWithOutStyle = removeSvgStyle(data.toString());
-    const finalText = textWithOutStyle
-      .replace('fill-rule=', 'fillRule=')
-      .replace('fill-opacity=', 'fillOpacity=');
-
-    svgo.optimize(finalText, (result) => {
-      resolve(result);
-    });
-  });
+  const svgo = options.svgo || buildSvgo(options);
+  const textWithOutStyle = removeSvgStyle(data.toString());
+  const finalText = textWithOutStyle
+    .replace('fill-rule=', 'fillRule=')
+    .replace('fill-opacity=', 'fillOpacity=');
+  return svgo.optimize(finalText);
 }
 
 
