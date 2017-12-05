@@ -2,6 +2,7 @@ import React from 'react';
 import IcBook from 'icons/IcBook';
 import IcMic from 'icons/IcMic';
 import IcMsg from 'icons/IcMsg';
+import IcReading from 'icons/IcReading';
 import IcStar from 'icons/IcStar';
 import IcTips from 'icons/IcTips';
 
@@ -19,6 +20,10 @@ export default () => {
       <li>
         <IcMsg />
         <div className="comp-name">IcMsg</div>
+      </li>
+      <li>
+        <IcReading />
+        <div className="comp-name">IcReading</div>
       </li>
       <li>
         <IcStar />
