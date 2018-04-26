@@ -3,6 +3,7 @@ import IcBook from 'icons/IcBook';
 import IcMic from 'icons/IcMic';
 import IcMsg from 'icons/IcMsg';
 import IcReading from 'icons/IcReading';
+import IcRight from 'icons/IcRight';
 import IcStar from 'icons/IcStar';
 import IcTips from 'icons/IcTips';
 
@@ -24,6 +25,10 @@ export default () => {
       <li>
         <IcReading />
         <div className="comp-name">IcReading</div>
+      </li>
+      <li>
+        <IcRight />
+        <div className="comp-name">IcRight</div>
       </li>
       <li>
         <IcStar />

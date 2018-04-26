@@ -73,6 +73,10 @@ const buildSvgo = (options) => {
       }, {
         cleanupNumericValues: true,
       }, {
+        cleanupListOfValues: {
+          floatPrecision: 2,
+        },
+      } ,{
         moveElemsAttrsToGroup: true,
       }, {
         moveGroupAttrsToElems: true,
